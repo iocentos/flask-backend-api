@@ -15,3 +15,7 @@ def create_group(group_name):
 # Stores a new message in the backend storage
 def store_message(group_id, user_id, message):
     print("Storing message")
+
+# Returns group history
+def get_group_messages(group_id):
+    pass
